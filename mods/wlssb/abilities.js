@@ -317,9 +317,9 @@ exports.BattleAbilities = {
 	hotpatch: {
 		id: "hotpatch",
 		name: "Hotpatch",
-		desc: "Boosts user's Special and Spe by 3 stages on switch in. Also uses Magnet Rise on entry.",
+		desc: "Boosts user's Special and Spe by 4 stages on switch in. Also uses Magnet Rise on entry.",
 		onStart: function (pokemon) {
-			this.boost({spa: 3, spe: 3});
+			this.boost({spa: 4, spe: 4});
 			this.useMove('magnetrise', pokemon);
 		},
 	},
