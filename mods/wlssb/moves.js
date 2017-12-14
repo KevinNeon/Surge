@@ -84,7 +84,7 @@ exports.BattleMovedex = {
 		pp: 1,
 		noPPBoosts: true,
 		priority: 5,
-		selfdestruct: "yes",
+		selfdestruct: "always",
 		onPrepareHit: function (target, source, move) {
 			this.attrLastMove('[still]');
 			this.add('-anim', source, "Explosion", target);
