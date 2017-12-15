@@ -165,7 +165,7 @@ class RandomSeasonalRegStaffTeams extends RandomTeams {
 				},
 				nature: 'Modest',
 			},
-			'@A Helpful Rayquaza': {
+			'&A Helpful Rayquaza': {
 				species: 'Rayquaza-Mega',
 				ability: 'Delta Stream',
 				shiny: true,
