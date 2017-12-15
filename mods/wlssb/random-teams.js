@@ -244,7 +244,7 @@ class RandomSeasonalRegStaffTeams extends RandomTeams {
 				nature: 'Timid',
 			},
 		   // Global Drivers
-			 '%NoPat': {
+			 '+NoPat': {
 				species: 'Gengar',
 				ability: 'Adaptibility',
 				item: 'Life Orb',
