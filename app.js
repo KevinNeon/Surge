@@ -92,11 +92,7 @@ if (Config.watchconfig) {
 
 global.WL = {};
 
-global.sqlite3 = require('sqlite3');
-
-global.Db = require('nef')(require('nef-mongo')('mongodb://PrinceSky:Musaddiq777@ds113606.mlab.com:13606/surge-db'));
-
-global.GL = require('origindb')('config/gl');
+global.Db = require('nef')(require('nef-fs')('config/db'));
 
 global.Monitor = require('./monitor');
 
@@ -105,13 +101,12 @@ global.toId = Dex.getId;
 
 global.LoginServer = require('./loginserver');
 
-global.Ladders = require(Config.remoteladder ? './ladders-remote' : './ladders');
+global.Ladders = require('./ladders');
 
 global.Users = require('./users');
 
 global.Punishments = require('./punishments');
 
-global.Console = require('./console.js');
 global.Chat = require('./chat');
 global.Rooms = require('./rooms');
 
