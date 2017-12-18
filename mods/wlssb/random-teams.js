@@ -244,22 +244,7 @@ class RandomSeasonalRegStaffTeams extends RandomTeams {
 				nature: 'Timid',
 			},
 		   // Global Drivers
-			 '+NoPat': {
-				species: 'Gengar',
-				ability: 'Adaptibility',
-				item: 'Life Orb',
-				gender: 'M',
-				moves: ['Shadow Ball', 'Sludge Bomb', 'Dark Pulse',
-				],
-				signatureMove: "Shadow Hunter",
-				evs: {
-					spa: 252,
-					spe: 252,
-					spd: 4,
-				},
-				nature: 'Modest',
-			},
-		};
+			 
 		// convert moves to ids.
 		for (let k in sets) {
 			sets[k].moves = sets[k].moves.map(toId);
