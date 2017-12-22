@@ -171,7 +171,9 @@ exports.commands = {
 			"<br />" +
 			"<u><b>Major Contributors:</b></u><br />" +
 			"- " + WL.nameColor('Shivay', true) + " (Server Admin, Development, CSS)<br />" +
-			 "- " + WL.nameColor('SparkyHeliolisk', true) + " (Development, SSSB Lead)<br />" +
+			 "- " + WL.nameColor('SparkyHeliolisk', true) + " (Development, SSB Lead, Media)<br />" +
+			 "<br />" +
+		         "- " + WL.nameColor('A Helpful Rayquaza', true) + " (Policy Leader)<br />" +
 			 "<br />" +
 			"<u><b>Contributors:</b></u><br />" +
 			"- " + WL.nameColor('Snorlax The Rain', true) + " (Manager)<br />" +
